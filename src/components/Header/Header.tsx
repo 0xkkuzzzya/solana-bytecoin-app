@@ -4,7 +4,7 @@ import { HeaderLink } from "../CustomLinks/HeaderLinks";
 import MarcketplaceIcon from '../../assets/MarcketplaceIcon.svg';
 import HomeIcon from '../../assets/HomeIcon.png';
 import { useEffect, useMemo, useState } from "react";
-import { PhantomProvider } from "../../App";
+import { PhantomProvider } from "../../solana-types/type";
 
 const HeaderContainer = styled.div`
     width: 100%;
